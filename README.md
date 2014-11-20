@@ -1,2 +1,3 @@
-SugarSyncApiDocumentJapaneseTranslation
+SugarSync API Document 日本語訳
 =======================================
+誰か代わりにやってください。
