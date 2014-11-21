@@ -1,24 +1,28 @@
-*The Original: [SugarSync for Developers-API Examples](https://www.sugarsync.com/dev/using-api.html)*
+> *The Original: [SugarSync for Developers-API Examples](https://www.sugarsync.com/dev/using-api.html)*
 
 ---
 
-* [Developer Home](/dev/home.html)
-* [Getting Started](/dev/getting-started.html)
-* [Managing Keys and Apps](/dev/managing-apps.html)
-* [Resource Overview](/dev/resources.html)
-* [Examples](/dev/using-api.html)
-* [Best Practices](/dev/best-practices.html)
-* [Resource Reference](/dev/api/resource-ref.html)
-* [*::Developer's Forum::*](http://groups.google.com/a/developers.sugarsync.com/group/platform-api/subscribe)
-* [*::App Showcase::*](https://www.sugarsync.com/partners/)
-* [Glossary](/dev/glossary.html)
-* [Developer Provisioning](/dev/dev-provisioning.html)
+---
+
+* [Developer Home](/source/dev/home.html)
+* [Getting Started](/source/dev/getting-started.html)
+* [Managing Keys and Apps](/source/dev/managing-apps.html)
+* [Resource Overview](/source/dev/resources.html)
+* [Examples](/source/dev/using-api.html)
+* [Best Practices](/source/dev/best-practices.html)
+* [Resource Reference](/source/dev/api/resource-ref.html)
+* [*:::Developer's Forum:::*](http://groups.google.com/a/developers.sugarsync.com/group/platform-api/subscribe)
+* [*:::App Showcase:::*](https://www.sugarsync.com/partners/)
+* [Glossary](/source/dev/glossary.html)
+* [Developer Provisioning](/source/dev/dev-provisioning.html)
+
+---
 
 # Using the Platform API: Examples
 
 We've provided a sample application to help you get started with the Platform API. The application, which is written in Java, uses the API to perform various tasks. You can download the application and examine the source code to see how these tasks are implemented.
 
-[**Download the Sample App**]()
+**[*:::Download the Sample App:::*](https://www.sugarsync.com/dev/resource/sugarsync-api-sample.zip)**
 
 The application is designed to work with a SugarSync user's Magic Briefcase. The Magic Briefcase is a folder in a user's Documents folder that is managed by SugarSync. Anything that the user puts into the Magic Briefcase folder is automatically backed up and synced to other devices on which the user has SugarSync installed.
 
@@ -31,7 +35,7 @@ Using the application, you can:
 
 ### Installing and Running the Application
 
-The application is structured as a Maven project and packaged in a zip file, sugarsync-api-sample.zip. If you don't already have Maven, you can download it from the [Apache Maven site]().
+The application is structured as a Maven project and packaged in a zip file, sugarsync-api-sample.zip. If you don't already have Maven, you can download it from the [*:::Apache Maven site:::*](http://maven.apache.org/).
 
 To install the sample application:
 
@@ -41,13 +45,13 @@ To install the sample application:
 
 Among other things, this process creates a target subdirectory in the sugarsync-api-sample directory. The target subdirectory contains the classes and JAR files for the sample application.
 
-You can then run the application by command from a command line window. Alternatively, you can import the project to Eclipse and run it from the Eclipse IDE. See [Importing an Running the Application in Eclipse]() for further details.
+You can then run the application by command from a command line window. Alternatively, you can import the project to Eclipse and run it from the Eclipse IDE. See [Importing an Running the Application in Eclipse](#importing-and-running-the-application-in-eclipse) for further details.
 
 If you run the application by command from a command line window, make sure you run the command from the sugarsync-api-sample directory. The syntax of the command is as follows:
 
-```java
-java -jar ./target/sugarsync-api-sample.jar -user <em>username</em> -password <em>password</em> -application <em>appId</em>
--accesskey <em>publicAccessKey</em> -privatekey <em>privateAccessKey</em> quota | list | download <em>fileToDownload</em> | upload <em>fileToUpload</em>
+```
+java -jar ./target/sugarsync-api-sample.jar -user username -password password -application appId
+-accesskey publicAccessKey -privatekey privateAccessKey quota | list | download fileToDownload | upload fileToUpload
 ```
 
 where:
@@ -60,7 +64,7 @@ where:
 *fileToDownload* - The file to be downloaded to the current directory from the user's Magic Briefcase.  
 *fileToUpload* - The file to be uploaded from the current directory to the Magic Briefcase.
 
-The app ID is the one assigned by SugarSync to your app when you created the app using the [Developer Console](). The access key ID and private access key are the pair of keys you received when you signed up as a developer with SugarSync, or they are an additional key-pair that you created using the Developer Console. Note that it's good practice to obtain a different access key ID-private access key pair for each application you develop for use with SugarSync.
+The app ID is the one assigned by SugarSync to your app when you created the app using the [*:::Developer Console:::*](https://www.sugarsync.com/developer/account). The access key ID and private access key are the pair of keys you received when you signed up as a developer with SugarSync, or they are an additional key-pair that you created using the Developer Console. Note that it's good practice to obtain a different access key ID-private access key pair for each application you develop for use with SugarSync.
 
 Here are some examples that demonstrate how to run the application from the command line. Note that the username, password, app ID, access key ID, and private access key shown in the examples are only illustrative. Make sure to use the actual username and password of the pertinent user, the actual ID issued to your app, and the keys that you were issued.
 
@@ -147,11 +151,13 @@ You can then run the sample application from Eclipse as follows:
 2. Right-click SampleTool.java and select Run As->Run Configurations.
 3. Select the Arguments tab.
 4. Enter the arguments for the command in the Program arguments field. Here's what the arguments to list a user's quota information might look like:
-```
+
+  ```
 -user user@email.com -password userpw -application /sc/10098/4_235123 -accesskey  MTUzOTEyNjEzMjM4NzEwNDg0MTc
 -privatekey ZmNhMWY2MTZlY2M1NDg4OGJmZDY4OTExMjY5OGUxOWY quota
-```
-Remember to enter your actual user ID and password as well as the app ID, access key, and private key that you were issued by SugarSync.
+  ```
+
+  Remember to enter your actual user ID and password as well as the app ID, access key, and private key that you were issued by SugarSync.
 5. Click Run
 
 ### Examining the Application Structure
@@ -172,19 +178,21 @@ If you navigate down through the src folder to the sample folder, you'll notice 
   * SugarSyncHTTPGetUtil.java, a class used for making HTTP GET requests.
   * XmlUtilloadAPI.java, a class that performs various XML operations, such as formatting an unformatted XML file, and transforming an XML string.
 
-You'll learn more about these files in the example pages, such as [Getting Authorization]() and Getting Information [About a User]().
+You'll learn more about these files in the example pages, such as [Getting Authorization](/source/dev/get-auth-token-example.html) and Getting Information [About a User](/source/dev/get-user-info-example.html).
 
 ### What's Next?
 
 As you examine the source code, you'll see how some key tasks are performed using the Platform API. These include:
 
-* [Getting authorization]()
-* [Getting information about a user]()
-* [Listing the contents of a folder]()
-* [Downloading a file]()
-* [Creating a file]()
-* [Uploading data to a file]()
+* [Getting authorization](/source/dev/get-auth-token-example.html)
+* [Getting information about a user](/source/dev/get-user-info-example.html)
+* [Listing the contents of a folder](/source/dev/get-folder-info-example.html)
+* [Downloading a file](/source/dev/download-file-example.html)
+* [Creating a file](/source/dev/create-file-example.html)
+* [Uploading data to a file](/source/dev/upload-file-data-example.html)
 
-Each of these tasks will be covered in detail in the example pages that follow. Because authorization is needed to access any resource through the Platform API, learning [how to get authorization]() is a good place to start. So that's the first of these tasks we'll cover.
+Each of these tasks will be covered in detail in the example pages that follow. Because authorization is needed to access any resource through the Platform API, learning [how to get authorization](/source/dev/get-auth-token-example.html) is a good place to start. So that's the first of these tasks we'll cover.
 
-© 2014 SugarSync, Inc. All Rights Reserved.  [API Terms of Use]()
+---
+
+© 2014 SugarSync, Inc. All Rights Reserved.  [API Terms of Use](/source/dev/terms.html)
