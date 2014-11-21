@@ -4,6 +4,42 @@
   <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="3.1.7" segtype="sentence" srclang="EN-US"/>
   <body>
 <!-- Default translations -->
+    <tu>
+      <tuv lang="EN-US">
+        <seg>* [Developer Home](/source/dev/home.html)
+* [Getting Started](/source/dev/getting-started.html)
+* [Managing Keys and Apps](/source/dev/managing-apps.html)
+* [Resource Overview](/source/dev/resources.html)
+* [Examples](/source/dev/using-api.html)
+* [Best Practices](/source/dev/best-practices.html)
+* [Resource Reference](/source/dev/api/resource-ref.html)
+* [*:::Developer's Forum:::*](http://groups.google.com/a/developers.sugarsync.com/group/platform-api/subscribe)
+* [*:::App Showcase:::*](https://www.sugarsync.com/partners/)
+* [Glossary](/source/dev/glossary.html)
+* [Developer Provisioning](/source/dev/dev-provisioning.html)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141121T160021Z" creationid="kntacooh" creationdate="20141121T160021Z">
+        <seg>* [ホーム](/target/dev/home.html)
+* [はじめに](/target/dev/getting-started.html)
+* [アプリの管理](/target/dev/managing-apps.html)
+* [リソースの概要](/target/dev/resources.html)
+* [使用例](/target/dev/using-api.html)
+* [ベストプラクティス](/target/dev/best-practices.html)
+* [リソースのリファレンス](/target/dev/api/resource-ref.html)
+* [*:::開発者フォーラム:::*](http://groups.google.com/a/developers.sugarsync.com/group/platform-api/subscribe)
+* [*:::アプリ紹介:::*](https://www.sugarsync.com/partners/)
+* [用語解説](/target/dev/glossary.html)
+* [プロビジョニング](/target/dev/dev-provisioning.html)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>---</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141121T155843Z" creationid="kntacooh" creationdate="20141121T155843Z">
+        <seg>---</seg>
+      </tuv>
+    </tu>
 <!-- Alternative translations -->
   </body>
 </tmx>
