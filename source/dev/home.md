@@ -63,8 +63,7 @@ Using the Platform API you can create apps that allow users with SugarSync accou
 
 **Note:** You need prior authorization to use the developer provisioning service in your app. Contact us at developers@sugarsync.com if you have not already received the needed authorization.
 
-<a name="apinew"></a>
-## What's New
+## <a name="apinew"></a>What's New
 
 As you look through the documentation, you'll notice some new features. Some of these were recently added to the Platform API. Some have been around for a while, but haven't been documented until now. These features include:
 
