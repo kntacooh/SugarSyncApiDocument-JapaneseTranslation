@@ -86,7 +86,7 @@ Enter the information in the "Create app" dialog, as appropriate, and click *Cre
 
 > *See the following picture: https://www.sugarsync.com/images/AppCreated.png*
 
-Notice that SugarSync enables the app and also assigns it an app ID. The app ID uniquely identifies the application. You app will need to specify the app ID as well as the pertinent access key ID-private access key pair when it requests a refresh token for authorization to access the SugarSync API. (See [Getting Authorization](/source/dev/get-auth-token-example.md) for further details about authorization.)
+Notice that SugarSync enables the app and also assigns it an app ID. The app ID uniquely identifies the application. You app will need to specify the app ID as well as the pertinent access key ID-private access key pair when it requests a refresh token for authorization to access the SugarSync API. (See [Getting Authorization](get-auth-token-example.md) for further details about authorization.)
 
 <a name="editapp"></a>
 ### Editing an Application

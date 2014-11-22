@@ -54,7 +54,7 @@ Wondering how the API works? Here are the basics.
 * Each resource has a unique, user-specific, persistent Uniform Resource Identifier (URI).
 * Resources are read and modified using basic HTTP operations such as GET, POST, PUT and DELETE.
 
-We hope you find the API straightforward and easy to implement. Read our [Getting Started guide](getting-started.md) or explore our [code examples](using-api.md) that demonstrate the API in use. Or you can jump right in and explore the syntax and semantics of the API in the SugarSync API [Resource Reference](./api/resource-ref.md).
+We hope you find the API straightforward and easy to implement. Read our [Getting Started guide](getting-started.md) or explore our [code examples](using-api.md) that demonstrate the API in use. Or you can jump right in and explore the syntax and semantics of the API in the SugarSync API [Resource Reference](api/resource-ref.md).
 
 ## Let Us Promote Your App
 

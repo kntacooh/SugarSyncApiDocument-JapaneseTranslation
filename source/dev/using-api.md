@@ -184,20 +184,20 @@ If you navigate down through the src folder to the sample folder, you'll notice 
   * SugarSyncHTTPGetUtil.java, a class used for making HTTP GET requests.
   * XmlUtilloadAPI.java, a class that performs various XML operations, such as formatting an unformatted XML file, and transforming an XML string.
 
-You'll learn more about these files in the example pages, such as [Getting Authorization](/source/dev/get-auth-token-example.md) and Getting Information [About a User](/source/dev/get-user-info-example.md).
+You'll learn more about these files in the example pages, such as [Getting Authorization](get-auth-token-example.md) and Getting Information [About a User](get-user-info-example.md).
 
 ### What's Next?
 
 As you examine the source code, you'll see how some key tasks are performed using the Platform API. These include:
 
-* [Getting authorization](/source/dev/get-auth-token-example.md)
-* [Getting information about a user](/source/dev/get-user-info-example.md)
-* [Listing the contents of a folder](/source/dev/get-folder-info-example.md)
-* [Downloading a file](/source/dev/download-file-example.md)
-* [Creating a file](/source/dev/create-file-example.md)
-* [Uploading data to a file](/source/dev/upload-file-data-example.md)
+* [Getting authorization](get-auth-token-example.md)
+* [Getting information about a user](get-user-info-example.md)
+* [Listing the contents of a folder](get-folder-info-example.md)
+* [Downloading a file](download-file-example.md)
+* [Creating a file](create-file-example.md)
+* [Uploading data to a file](upload-file-data-example.md)
 
-Each of these tasks will be covered in detail in the example pages that follow. Because authorization is needed to access any resource through the Platform API, learning [how to get authorization](/source/dev/get-auth-token-example.md) is a good place to start. So that's the first of these tasks we'll cover.
+Each of these tasks will be covered in detail in the example pages that follow. Because authorization is needed to access any resource through the Platform API, learning [how to get authorization](get-auth-token-example.md) is a good place to start. So that's the first of these tasks we'll cover.
 
 ---
 

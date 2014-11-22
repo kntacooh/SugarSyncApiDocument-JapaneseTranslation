@@ -26,10 +26,10 @@ Welcome, SugarSync Developers! Our API is easy to incorporate into your applicat
 
 1. [*:::Sign up for a SugarSync account:::*](https://www.sugarsync.com/signup?startsub=5) if you don't have one already.
 2. [*:::Register your SugarSync account as a developer account:::*](https://www.sugarsync.com/developer/signup). In response, you'll receive a set of access keys that you'll need to use the API.
-3. Create your app using the [*:::Developer Console:::*](https://www.sugarsync.com/developer/account). This identifies the app to SugarSync. After your app is identified in this way to SugarSync, you can develop it. See [Managing Your Access Keys and Applications](/source/dev/managing-apps.md) for further details.
-4. Read the remainder of this Getting Started guide. Learn about the [resources available through the API](/source/dev/resources.md) and examine the [code examples](/source/dev/using-api.md). Then browse through our [Resource Reference](/source/dev/api/resource-ref.md) for details on the syntax and semantics of Platform API requests, and start developing.
+3. Create your app using the [*:::Developer Console:::*](https://www.sugarsync.com/developer/account). This identifies the app to SugarSync. After your app is identified in this way to SugarSync, you can develop it. See [Managing Your Access Keys and Applications](managing-apps.md) for further details.
+4. Read the remainder of this Getting Started guide. Learn about the [resources available through the API](resources.md) and examine the [code examples](using-api.md). Then browse through our [Resource Reference](api/resource-ref.md) for details on the syntax and semantics of Platform API requests, and start developing.
 
-**[Can't wait? Get started with our Sample App](/source/dev/using-api.md)**
+**[Can't wait? Get started with our Sample App](using-api.md)**
 
 To share ideas and get answers when you need them, be sure to join our [*:::Developer Forum:::*](http://groups.google.com/a/developers.sugarsync.com/group/platform-api/subscribe).
 
@@ -48,7 +48,7 @@ The SugarSync API is a REST-based API. If you're familiar with the REST style of
 
   * Your application makes requests through the API for resources such as users, folders, files, and collections (that is, groups of objects).
 
-  See the [Resource Overview](/source/dev/resources.md) for further information about SugarSync resources that you can access through the Platform API.
+  See the [Resource Overview](resources.md) for further information about SugarSync resources that you can access through the Platform API.
 
 * All resources are addressed by a global identifier, called a Uniform Resource Identifier or URI. Most often, resources are identified by location, so typically the identifier is a Uniform Resource Locator or URL (that is, a certain type of URI). When you use the Platform API to request a resource, you're actually submitting a request to a web service provided by SugarSync.
 
@@ -195,13 +195,13 @@ When your app makes a request to obtain a refresh token, it needs to provide XML
 
 * Your app does not need to store user credentials: An access token is transient — it can be used to access user resources for a short period time (approximately one hour). However, a refresh token is persistent. Your app can obtain additional access tokens using the same refresh token. There is no need for your app to store the user's credentials between API access requests.
 
-In addition to specifying the username and password, the XML input needs to specify your app's ID as well as your access key ID and private access key. Your app is assigned an ID when you create the app using the Developer Console.. This is the app ID you need to specify in the request for a refresh token. For instructions on creating an app, see [Creating an Application](/source/dev/managing-apps.md#createapp).
+In addition to specifying the username and password, the XML input needs to specify your app's ID as well as your access key ID and private access key. Your app is assigned an ID when you create the app using the Developer Console.. This is the app ID you need to specify in the request for a refresh token. For instructions on creating an app, see [Creating an Application](managing-apps.md#createapp).
 
 You receive your access key ID and private access key when you sign up as a developer with SugarSync.
 
 * Protect your keys: Do not share these keys. Your access key ID and private access key provide an authorized connection to the SugarSync platform exclusively from your app. You don't want to give anyone else this unique access ability.
 
-Although not mandatory, it's good practice to obtain a different access key ID-private access key pair for each application you develop for use with SugarSync. This establishes unique authentication credentials for each application. If you develop more than one app, you'll need to create the additional apps using the Developer Console, and you should also obtain a new access key ID-private access key pair for each additional app you develop. SugarSync provides a maximum of ten access key ID-private access key pairs for each developer account. For instructions on adding access key ID-private access key pairs, see [Adding Keys](/source/dev/managing-apps.md#addkeys).
+Although not mandatory, it's good practice to obtain a different access key ID-private access key pair for each application you develop for use with SugarSync. This establishes unique authentication credentials for each application. If you develop more than one app, you'll need to create the additional apps using the Developer Console, and you should also obtain a new access key ID-private access key pair for each additional app you develop. SugarSync provides a maximum of ten access key ID-private access key pairs for each developer account. For instructions on adding access key ID-private access key pairs, see [Adding Keys](managing-apps.md#addkeys).
 
 For more information about creating refresh tokens and access tokens, as well as a code example, see Getting Authorization.
 
@@ -225,7 +225,7 @@ In general, here's what your application needs to do to use the Platform API:
 
 5. Retrieve and process the response. Requests that retrieve information, such as a request to get information about a user, return XML in the message body whose elements provide the information. All requests return a status code indicating whether the request was successful or not.
 
-For code examples, see [Using the Platform API: Examples](/source/dev/using-api.md). Also see the [Resource Reference](/source/dev/api/resource-ref.md) for details on the syntax and semantics of Platform API requests. Good luck with your project!
+For code examples, see [Using the Platform API: Examples](using-api.md). Also see the [Resource Reference](api/resource-ref.md) for details on the syntax and semantics of Platform API requests. Good luck with your project!
 
 ---
 
