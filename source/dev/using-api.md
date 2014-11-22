@@ -4,17 +4,17 @@
 
 ---
 
-* [Developer Home](/source/dev/home.html)
-* [Getting Started](/source/dev/getting-started.html)
-* [Managing Keys and Apps](/source/dev/managing-apps.html)
-* [Resource Overview](/source/dev/resources.html)
-* [Examples](/source/dev/using-api.html)
-* [Best Practices](/source/dev/best-practices.html)
-* [Resource Reference](/source/dev/api/resource-ref.html)
+* [Developer Home](/source/dev/home.md)
+* [Getting Started](/source/dev/getting-started.md)
+* [Managing Keys and Apps](/source/dev/managing-apps.md)
+* [Resource Overview](/source/dev/resources.md)
+* [Examples](/source/dev/using-api.md)
+* [Best Practices](/source/dev/best-practices.md)
+* [Resource Reference](/source/dev/api/resource-ref.md)
 * [*:::Developer's Forum:::*](http://groups.google.com/a/developers.sugarsync.com/group/platform-api/subscribe)
 * [*:::App Showcase:::*](https://www.sugarsync.com/partners/)
-* [Glossary](/source/dev/glossary.html)
-* [Developer Provisioning](/source/dev/dev-provisioning.html)
+* [Glossary](/source/dev/glossary.md)
+* [Developer Provisioning](/source/dev/dev-provisioning.md)
 
 ---
 
@@ -45,7 +45,7 @@ To install the sample application:
 
 Among other things, this process creates a target subdirectory in the sugarsync-api-sample directory. The target subdirectory contains the classes and JAR files for the sample application.
 
-You can then run the application by command from a command line window. Alternatively, you can import the project to Eclipse and run it from the Eclipse IDE. See [Importing an Running the Application in Eclipse](#importing-and-running-the-application-in-eclipse) for further details.
+You can then run the application by command from a command line window. Alternatively, you can import the project to Eclipse and run it from the Eclipse IDE. See [Importing an Running the Application in Eclipse](#ineclipse) for further details.
 
 If you run the application by command from a command line window, make sure you run the command from the sugarsync-api-sample directory. The syntax of the command is as follows:
 
@@ -68,6 +68,7 @@ The app ID is the one assigned by SugarSync to your app when you created the app
 
 Here are some examples that demonstrate how to run the application from the command line. Note that the username, password, app ID, access key ID, and private access key shown in the examples are only illustrative. Make sure to use the actual username and password of the pertinent user, the actual ID issued to your app, and the keys that you were issued.
 
+<a name="dispquota"></a>
 **Display the user's quota:**
 
 ```
@@ -83,6 +84,8 @@ Total storage available: 5.375 GB
 Storage usage: 2.377 GB
 Free storage: 2.998 GB
 ```
+
+<a name="listcont"></a>
 **List the contents of the user's Magic Briefcase:**
 
 ```
@@ -104,6 +107,7 @@ What is Magic Briefcase.pdf
 George_Washington.jpg
 ```
 
+<a name="downfile"></a>
 **Download a file named George_Washington.jpg to the local directory from the user's Magic Briefcase:**
 
 ```
@@ -118,6 +122,7 @@ Download completed successfully. The George_Washington.jpg from "Magic Briefcase
 was downloaded to the local directory.
 ```
 
+<a name="upfile"></a>
 **Upload a file named Thomas-Jefferson.jpg from the local directory to the user's Magic Briefcase:**
 
 ```
@@ -131,6 +136,7 @@ You should see results that look like this:
 Upload completed successfully. Check "Magic Briefcase" remote folder
 ```
 
+<a name="ineclipse"></a>
 ### Importing and Running the Application in Eclipse
 
 After you install the sample application, you can import the project into Eclipse as follows:
@@ -178,21 +184,21 @@ If you navigate down through the src folder to the sample folder, you'll notice 
   * SugarSyncHTTPGetUtil.java, a class used for making HTTP GET requests.
   * XmlUtilloadAPI.java, a class that performs various XML operations, such as formatting an unformatted XML file, and transforming an XML string.
 
-You'll learn more about these files in the example pages, such as [Getting Authorization](/source/dev/get-auth-token-example.html) and Getting Information [About a User](/source/dev/get-user-info-example.html).
+You'll learn more about these files in the example pages, such as [Getting Authorization](/source/dev/get-auth-token-example.md) and Getting Information [About a User](/source/dev/get-user-info-example.md).
 
 ### What's Next?
 
 As you examine the source code, you'll see how some key tasks are performed using the Platform API. These include:
 
-* [Getting authorization](/source/dev/get-auth-token-example.html)
-* [Getting information about a user](/source/dev/get-user-info-example.html)
-* [Listing the contents of a folder](/source/dev/get-folder-info-example.html)
-* [Downloading a file](/source/dev/download-file-example.html)
-* [Creating a file](/source/dev/create-file-example.html)
-* [Uploading data to a file](/source/dev/upload-file-data-example.html)
+* [Getting authorization](/source/dev/get-auth-token-example.md)
+* [Getting information about a user](/source/dev/get-user-info-example.md)
+* [Listing the contents of a folder](/source/dev/get-folder-info-example.md)
+* [Downloading a file](/source/dev/download-file-example.md)
+* [Creating a file](/source/dev/create-file-example.md)
+* [Uploading data to a file](/source/dev/upload-file-data-example.md)
 
-Each of these tasks will be covered in detail in the example pages that follow. Because authorization is needed to access any resource through the Platform API, learning [how to get authorization](/source/dev/get-auth-token-example.html) is a good place to start. So that's the first of these tasks we'll cover.
+Each of these tasks will be covered in detail in the example pages that follow. Because authorization is needed to access any resource through the Platform API, learning [how to get authorization](/source/dev/get-auth-token-example.md) is a good place to start. So that's the first of these tasks we'll cover.
 
 ---
 
-© 2014 SugarSync, Inc. All Rights Reserved.  [API Terms of Use](/source/dev/terms.html)
+© 2014 SugarSync, Inc. All Rights Reserved.  [API Terms of Use](/source/dev/terms.md)
