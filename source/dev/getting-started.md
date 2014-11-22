@@ -71,7 +71,7 @@ At the very least, it's important to understand that HTTP is a protocol for send
 
 For example, an HTTP request that retrieves information about a SugarSync user, might look like this:
 
-```
+```xml
 GET https://api.sugarsync.com/user/566494 HTTP/1.1
 Authorization: https://api.sugarsync.com/authorization/SmZ8zlrkR8j0oefVmmD4dUD83
 User-Agent: Jakarta Commons-HttpClient/3.1
@@ -90,7 +90,7 @@ An HTTP response is formatted similarly to an HTTP request, except that the init
 
 For example, here is what the HTTP response might look like in response to the previous HTTP request (the XML data is formatted for readability):
 
-```
+```xml
 HTTP/1.1 200 OK
 Content-Type: application/xml; charset=UTF-8
 Date: Wed, 30 Nov 2011 20:00:59 GMT
@@ -101,23 +101,23 @@ Transfer-Encoding: chunked
 
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <user>
-<username>jsmith@sugarsync.com</username>
-<nickname>jsmith</nickname>
-<quota>
-<limit>5771362304</limit>
-<usage>2550443805</usage>
-</quota>
-<workspaces>https://api.sugarsync.com/user/5664947/workspaces/contents</workspaces>
-<syncfolders>https://api.sugarsync.com/user/5664947/folders/contents</syncfolders>
-<deleted>https://api.sugarsync.com/folder/:sc:5664947:9</deleted>
-<magicBriefcase>https://api.sugarsync.com/folder/:sc:5664947:2</magicBriefcase>
-<webArchive>https://api.sugarsync.com/folder/:sc:5664947:1</webArchive>
-<mobilePhotos>https://api.sugarsync.com/folder/:sc:5664947:3</mobilePhotos>
-<albums>https://api.sugarsync.com/user/5664947/albums/contents</albums>
-<recentActivities>https://api.sugarsync.com/user/5664947/recentActivities/contents</recentActivities>
-<receivedShares>https://api.sugarsync.com/user/5664947/receivedShares/contents</receivedShares>
-<publicLinks>https://api.sugarsync.com/user/5664947/publicLinks/contents</publicLinks>
-<maximumPublicLinkSize>25</maximumPublicLinkSize>
+ <username>jsmith@sugarsync.com</username>
+ <nickname>jsmith</nickname>
+ <quota>
+  <limit>5771362304</limit>
+  <usage>2550443805</usage>
+ </quota>
+ <workspaces>https://api.sugarsync.com/user/5664947/workspaces/contents</workspaces>
+ <syncfolders>https://api.sugarsync.com/user/5664947/folders/contents</syncfolders>
+ <deleted>https://api.sugarsync.com/folder/:sc:5664947:9</deleted>
+ <magicBriefcase>https://api.sugarsync.com/folder/:sc:5664947:2</magicBriefcase>
+ <webArchive>https://api.sugarsync.com/folder/:sc:5664947:1</webArchive>
+ <mobilePhotos>https://api.sugarsync.com/folder/:sc:5664947:3</mobilePhotos>
+ <albums>https://api.sugarsync.com/user/5664947/albums/contents</albums>
+ <recentActivities>https://api.sugarsync.com/user/5664947/recentActivities/contents</recentActivities>
+ <receivedShares>https://api.sugarsync.com/user/5664947/receivedShares/contents</receivedShares>
+ <publicLinks>https://api.sugarsync.com/user/5664947/publicLinks/contents</publicLinks>
+ <maximumPublicLinkSize>25</maximumPublicLinkSize>
 </user>
 ```
 
@@ -132,7 +132,7 @@ When you make a request through the Platform API, you either provide XML as inpu
 
 The XML consists of elements that describe the resource. For example, if you want to create a file, you need to provide XML input that identifies the name of the file (as it will be displayed to users), and the Internet media type of the file. Here's an example of what the HTTP request and the XML input might look like to create a file (the XML input is formatted for readability):
 
-```
+```xml
 POST https://api.sugarsync.com/folder/:sc:566494:5 HTTP/1.1
 Authorization: https://api.sugarsync.com/authorization/SmZ8zlrkR8j0oefVmmD4dUD83
 User-Agent: Jakarta Commons-HttpClient/3.1
@@ -142,14 +142,14 @@ Content-Type: application/xml; charset=UTF-8
 
 <?xml version="1.0" encoding="UTF-8" ?>
 <file>
-<displayName>Winter2012.jpg</displayName>
-<mediaType>image/jpeg</mediaType>
+ <displayName>Winter2012.jpg</displayName>
+ <mediaType>image/jpeg</mediaType>
 </file>
 ```
 
 As you saw previously in the HTTP response example in [The Platform API and HTTP](#apihttp), if you request information about a user resource, the service generates XML that includes elements that display information such as the user's name, nickname, and current storage utilization. The complete HTTP response should look something like this (the XML output is formatted for readability):
 
-```
+```xml
 HTTP/1.1 200 OK
 Content-Type: application/xml; charset=UTF-8
 Date: Fri, 22 Oct 2011 08:01:54 GMT
@@ -160,23 +160,23 @@ Transfer-Encoding: chunked
 
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <user>
-<username>jsmith@sugarsync.com</username>
-<nickname>jsmith</nickname>
-<quota>
-<limit>5771362304</limit>
-<usage>2550443805</usage>
-</quota>
-<workspaces>https://api.sugarsync.com/user/5664947/workspaces/contents</workspaces>
-<syncfolders>https://api.sugarsync.com/user/5664947/folders/contents</syncfolders>
-<deleted>https://api.sugarsync.com/folder/:sc:5664947:9</deleted>
-<magicBriefcase>https://api.sugarsync.com/folder/:sc:5664947:2</magicBriefcase>
-<webArchive>https://api.sugarsync.com/folder/:sc:5664947:1</webArchive>
-<mobilePhotos>https://api.sugarsync.com/folder/:sc:5664947:3</mobilePhotos>
-<albums>https://api.sugarsync.com/user/5664947/albums/contents</albums>
-<recentActivities>https://api.sugarsync.com/user/5664947/recentActivities/contents</recentActivities>
-<receivedShares>https://api.sugarsync.com/user/5664947/receivedShares/contents</receivedShares>
-<publicLinks>https://api.sugarsync.com/user/5664947/publicLinks/contents</publicLinks>
-<maximumPublicLinkSize>25</maximumPublicLinkSize>
+ <username>jsmith@sugarsync.com</username>
+ <nickname>jsmith</nickname>
+ <quota>
+  <limit>5771362304</limit>
+  <usage>2550443805</usage>
+ </quota>
+ <workspaces>https://api.sugarsync.com/user/5664947/workspaces/contents</workspaces>
+ <syncfolders>https://api.sugarsync.com/user/5664947/folders/contents</syncfolders>
+ <deleted>https://api.sugarsync.com/folder/:sc:5664947:9</deleted>
+ <magicBriefcase>https://api.sugarsync.com/folder/:sc:5664947:2</magicBriefcase>
+ <webArchive>https://api.sugarsync.com/folder/:sc:5664947:1</webArchive>
+ <mobilePhotos>https://api.sugarsync.com/folder/:sc:5664947:3</mobilePhotos>
+ <albums>https://api.sugarsync.com/user/5664947/albums/contents</albums>
+ <recentActivities>https://api.sugarsync.com/user/5664947/recentActivities/contents</recentActivities>
+ <receivedShares>https://api.sugarsync.com/user/5664947/receivedShares/contents</receivedShares>
+ <publicLinks>https://api.sugarsync.com/user/5664947/publicLinks/contents</publicLinks>
+ <maximumPublicLinkSize>25</maximumPublicLinkSize>
 </user>
 ```
 
