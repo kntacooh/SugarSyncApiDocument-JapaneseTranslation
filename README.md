@@ -10,10 +10,17 @@ OmegaT3系を使用
 
 5. 原文を更新した場合は、OmegaTを開く前にコミット&amp;プッシュする
 
-1. 外部リンクについては、斜字・リンクテキストの前後に":::"をつける
+1. 外部リンクについては、絶対URLで、斜字・リンクテキストの前後に":::"をつける
 
   `[*:::Developer Home:::*](https://www.sugarsync.com/dev/home.html)`
   [*:::Developer Home:::*](https://www.sugarsync.com/dev/home.html)
+
+7. 内部リンクについては、スラッシュから始まる場合は`/source`を先頭につけ、そうでない相対URLはそのままとする
+
+  `[Developer Home](/source/dev/home.md)`
+  [Developer Home](/source/dev/home.md)
+
+  * 太字のリンクは`**[text](link)**`とする(`[**text**](link)`ではない)。
 
 2. (i)のマークはDisc型リストで代用
 
@@ -32,3 +39,5 @@ OmegaT3系を使用
   `<a name="hoge"></a>`
 
 6. 内部リンクの拡張子を .html から .md に変更するのを忘れない
+
+8. 表内の改行は`<br>`を入れましょう

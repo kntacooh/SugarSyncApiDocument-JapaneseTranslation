@@ -24,4 +24,4 @@ contents.
 
 ---
 
-© 2014 SugarSync, Inc. All Rights Reserved.  [API Terms of Use](/source/dev/terms.md)
+© 201x SugarSync, Inc. All Rights Reserved.  [API Terms of Use](/source/dev/terms.md)
