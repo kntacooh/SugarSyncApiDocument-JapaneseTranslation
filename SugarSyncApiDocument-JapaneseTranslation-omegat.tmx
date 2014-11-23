@@ -1,0 +1,850 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tmx SYSTEM "tmx11.dtd">
+<tmx version="1.1">
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="3.1.7" segtype="sentence" srclang="EN-US"/>
+  <body>
+<!-- Default translations -->
+    <tu>
+      <tuv lang="EN-US">
+        <seg># Folder Resource</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T095832Z" creationid="kntacooh" creationdate="20141123T095832Z">
+        <seg>#フォルダ・リソース</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>## Folder Resource Contents</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T134911Z" creationid="kntacooh" creationdate="20141123T134741Z">
+        <seg>## フォルダ・リソースのコンテンツ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>## Methods</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T142750Z" creationid="kntacooh" creationdate="20141123T142750Z">
+        <seg>## メソッド</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>## URL</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T100839Z" creationid="kntacooh" creationdate="20141123T100839Z">
+        <seg>## URL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>## XML Representation</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T101147Z" creationid="kntacooh" creationdate="20141123T101147Z">
+        <seg>## XMLの表記</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>* **collection**.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T134803Z" creationid="kntacooh" creationdate="20141123T134803Z">
+        <seg>* **collection**.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>* **collections**.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T134435Z" creationid="kntacooh" creationdate="20141123T134435Z">
+        <seg>* **collections**.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>* **contents**.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T134438Z" creationid="kntacooh" creationdate="20141123T134438Z">
+        <seg>* **contents**.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>* **displayName**.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T134159Z" creationid="kntacooh" creationdate="20141123T134159Z">
+        <seg>* **displayName**.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>* **dsid**.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T134309Z" creationid="kntacooh" creationdate="20141123T134309Z">
+        <seg>* **dsid**.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>* **file**.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T134942Z" creationid="kntacooh" creationdate="20141123T134942Z">
+        <seg>* **file**.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>* **fileData**.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T140420Z" creationid="kntacooh" creationdate="20141123T140420Z">
+        <seg>* **fileData**.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>* **files**.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T134437Z" creationid="kntacooh" creationdate="20141123T134437Z">
+        <seg>* **files**.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>* **lastModified**.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T135140Z" creationid="kntacooh" creationdate="20141123T135140Z">
+        <seg>* **lastModified**.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>* **mediaType**.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T135256Z" creationid="kntacooh" creationdate="20141123T135256Z">
+        <seg>* **mediaType**.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>* **parent**.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T134428Z" creationid="kntacooh" creationdate="20141123T134428Z">
+        <seg>* **parent**.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>* **presentOnServer**.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T140238Z" creationid="kntacooh" creationdate="20141123T140238Z">
+        <seg>* **presentOnServer**.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>* **ref**.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T135035Z" creationid="kntacooh" creationdate="20141123T135035Z">
+        <seg>* **ref**.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>* **sharing**.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T134439Z" creationid="kntacooh" creationdate="20141123T134439Z">
+        <seg>* **sharing**.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>* **size**.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T135049Z" creationid="kntacooh" creationdate="20141123T135049Z">
+        <seg>* **size**.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>* **timeCreated**.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T134359Z" creationid="kntacooh" creationdate="20141123T134359Z">
+        <seg>* **timeCreated**.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>* GET.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T142815Z" creationid="kntacooh" creationdate="20141123T142815Z">
+        <seg>* GET。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>* [Copying a File in a Folder](method/copy-file.md)
+* DELETE.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T143120Z" creationid="kntacooh" creationdate="20141123T143120Z">
+        <seg>* [フォルダ内のファイルのコピー](method/copy-file.md)
+* DELETE.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>* [Creating a File in a Folder](method/create-file.md)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T143103Z" creationid="kntacooh" creationdate="20141123T143103Z">
+        <seg>* [フォルダ内のファイルの作成](method/create-file.md)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>* [Creating a Folder](method/create-folder.md)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T143023Z" creationid="kntacooh" creationdate="20141123T143023Z">
+        <seg>* [フォルダの作成](method/create-folder.md)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>* [Developer Home](/source/dev/home.md)
+* [Getting Started](/source/dev/getting-started.md)
+* [Managing Keys and Apps](/source/dev/managing-apps.md)
+* [Resource Overview](/source/dev/resources.md)
+* [Examples](/source/dev/using-api.md)
+* [Best Practices](/source/dev/best-practices.md)
+* [Resource Reference](/source/dev/api/resource-ref.md)
+* [*:::Developer's Forum:::*](http://groups.google.com/a/developers.sugarsync.com/group/platform-api/subscribe)
+* [*:::App Showcase:::*](https://www.sugarsync.com/partners/)
+* [Glossary](/source/dev/glossary.md)
+* [Developer Provisioning](/source/dev/dev-provisioning.md)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T095558Z" creationid="kntacooh" creationdate="20141123T095558Z">
+        <seg>* [ホーム](/target/dev/home.md)
+* [はじめに](/target/dev/getting-started.md)
+* [アプリの管理](/target/dev/managing-apps.md)
+* [リソースの概要](/target/dev/resources.md)
+* [使用例](/target/dev/using-api.md)
+* [ベストプラクティス](/target/dev/best-practices.md)
+* [リソースのプラクティス](/target/dev/api/resource-ref.md)
+* [*:::開発者フォーラム:::*](http://groups.google.com/a/developers.sugarsync.com/group/platform-api/subscribe)
+* [*:::アプリ紹介:::*](https://www.sugarsync.com/partners/)
+* [用語解説](/target/dev/glossary.md)
+* [プロビジョニング](/target/dev/dev-provisioning.md)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>* [Retrieving Folder Contents](method/get-folder-contents.md)
+* POST.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T143108Z" creationid="kntacooh" creationdate="20141123T143015Z">
+        <seg>* [フォルダのコンテンツの取得](method/get-folder-contents.md)
+* POST.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>* [Retrieving Folder Information](method/get-folder-info.md)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T143003Z" creationid="kntacooh" creationdate="20141123T143003Z">
+        <seg>* [フォルダ情報の取得](method/get-folder-info.md)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>* [Retrieving Folders](method/get-folders.md)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T142948Z" creationid="kntacooh" creationdate="20141123T142948Z">
+        <seg>* [フォルダの取得](method/get-folders.md)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>---</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141121T155843Z" creationid="kntacooh" creationdate="20141121T155843Z">
+        <seg>---</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;/collection&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T142721Z" creationid="kntacooh" creationdate="20141123T142721Z">
+        <seg>&lt;/collection&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;/file&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T142735Z" creationid="kntacooh" creationdate="20141123T142735Z">
+        <seg>&lt;/file&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;/file&gt;
+&lt;/collectionContents&gt;
+```</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T142743Z" creationid="kntacooh" creationdate="20141123T142743Z">
+        <seg>&lt;/file&gt;
+&lt;/collectionContents&gt;
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;collection type="folder"&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T142717Z" creationid="kntacooh" creationdate="20141123T142717Z">
+        <seg>&lt;collection type="folder"&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;collections&gt;https://api.sugarsync.com/folder/:sc:566494:6552993_17248/contents?type=folder&lt;/collections&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T134447Z" creationid="kntacooh" creationdate="20141123T134447Z">
+        <seg>&lt;collections&gt;https://api.sugarsync.com/folder/:sc:566494:6552993_17248/contents?type=folder&lt;/collections&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;contents&gt;https://api.sugarsync.com/folder/:sc:566494:6552993_17246/contents&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T142720Z" creationid="kntacooh" creationdate="20141123T142720Z">
+        <seg>&lt;contents&gt;https://api.sugarsync.com/folder/:sc:566494:6552993_17246/contents&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;contents&gt;https://api.sugarsync.com/folder/:sc:566494:6552993_17248/contents&lt;/contents&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T134449Z" creationid="kntacooh" creationdate="20141123T134449Z">
+        <seg>&lt;contents&gt;https://api.sugarsync.com/folder/:sc:566494:6552993_17248/contents&lt;/contents&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;contents&gt;https://api.sugarsync.com/folder/:sc:566494:6552993_17250/contents&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T142725Z" creationid="kntacooh" creationdate="20141123T142725Z">
+        <seg>&lt;contents&gt;https://api.sugarsync.com/folder/:sc:566494:6552993_17250/contents&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;displayName&gt;100A&lt;/displayName&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T134444Z" creationid="kntacooh" creationdate="20141123T134444Z">
+        <seg>&lt;displayName&gt;100A&lt;/displayName&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;displayName&gt;Abe-Lincoln.jpg&lt;/displayName&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T142727Z" creationid="kntacooh" creationdate="20141123T142727Z">
+        <seg>&lt;displayName&gt;Abe-Lincoln.jpg&lt;/displayName&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;displayName&gt;DC-102010&lt;/displayName&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T142723Z" creationid="kntacooh" creationdate="20141123T142723Z">
+        <seg>&lt;displayName&gt;DC-102010&lt;/displayName&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;displayName&gt;George-Washington.jpg&lt;/displayName&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T142736Z" creationid="kntacooh" creationdate="20141123T142736Z">
+        <seg>&lt;displayName&gt;George-Washington.jpg&lt;/displayName&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;displayName&gt;Presidents&lt;/displayName&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T142718Z" creationid="kntacooh" creationdate="20141123T142718Z">
+        <seg>&lt;displayName&gt;Presidents&lt;/displayName&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;dsid&gt;/sc/566494/6552993_17248&lt;dsid&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T134445Z" creationid="kntacooh" creationdate="20141123T134445Z">
+        <seg>&lt;dsid&gt;/sc/566494/6552993_17248&lt;dsid&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;file&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T142726Z" creationid="kntacooh" creationdate="20141123T142726Z">
+        <seg>&lt;file&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;fileData&gt;https://api.sugarsync.com/file/:sc:566494:6552993_17252/data&lt;/fileData&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T142733Z" creationid="kntacooh" creationdate="20141123T142733Z">
+        <seg>&lt;fileData&gt;https://api.sugarsync.com/file/:sc:566494:6552993_17252/data&lt;/fileData&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;fileData&gt;https://api.sugarsync.com/file/:sc:566494:6552993_17253/data&lt;/fileData&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T142742Z" creationid="kntacooh" creationdate="20141123T142742Z">
+        <seg>&lt;fileData&gt;https://api.sugarsync.com/file/:sc:566494:6552993_17253/data&lt;/fileData&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;files&gt;https://api.sugarsync.com/folder/:sc:566494:6552993_17248/contents?type=file&lt;/files&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T134448Z" creationid="kntacooh" creationdate="20141123T134448Z">
+        <seg>&lt;files&gt;https://api.sugarsync.com/folder/:sc:566494:6552993_17248/contents?type=file&lt;/files&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;lastModified&gt;2010-02-11T15:26:52.000-08:00&lt;/lastModified&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T142729Z" creationid="kntacooh" creationdate="20141123T142729Z">
+        <seg>&lt;lastModified&gt;2010-02-11T15:26:52.000-08:00&lt;/lastModified&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;lastModified&gt;2011-11-11T07:48:10.000-08:00&lt;/lastModified&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T142740Z" creationid="kntacooh" creationdate="20141123T142740Z">
+        <seg>&lt;lastModified&gt;2011-11-11T07:48:10.000-08:00&lt;/lastModified&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;mediaType&gt;image/jpeg&lt;/mediaType&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T142730Z" creationid="kntacooh" creationdate="20141123T142730Z">
+        <seg>&lt;mediaType&gt;image/jpeg&lt;/mediaType&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;parent&gt;https://api.sugarsync.com/folder/:sc:566494:5&lt;/parent&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T134446Z" creationid="kntacooh" creationdate="20141123T134446Z">
+        <seg>&lt;parent&gt;https://api.sugarsync.com/folder/:sc:566494:5&lt;/parent&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;presentOnServer&gt;true&lt;/presentOnServer&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T142731Z" creationid="kntacooh" creationdate="20141123T142731Z">
+        <seg>&lt;presentOnServer&gt;true&lt;/presentOnServer&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;ref&gt;https://api.sugarsync.com/folder/:sc:566494:6552993_17246&lt;/ref&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T142719Z" creationid="kntacooh" creationdate="20141123T142719Z">
+        <seg>&lt;ref&gt;https://api.sugarsync.com/folder/:sc:566494:6552993_17246&lt;/ref&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;ref&gt;https://api.sugarsync.com/folder/:sc:566494:6552993_17250&lt;/ref&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T142724Z" creationid="kntacooh" creationdate="20141123T142724Z">
+        <seg>&lt;ref&gt;https://api.sugarsync.com/folder/:sc:566494:6552993_17250&lt;/ref&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;ref&gt;https://api.sugarsync.com/folder/:sc:566494:6552993_17252&lt;/ref&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T142728Z" creationid="kntacooh" creationdate="20141123T142728Z">
+        <seg>&lt;ref&gt;https://api.sugarsync.com/folder/:sc:566494:6552993_17252&lt;/ref&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;ref&gt;https://api.sugarsync.com/folder/:sc:566494:6552993_17253&lt;/ref&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T142738Z" creationid="kntacooh" creationdate="20141123T142738Z">
+        <seg>&lt;ref&gt;https://api.sugarsync.com/folder/:sc:566494:6552993_17253&lt;/ref&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;sharing enabled="false"/&gt;
+&lt;/folder&gt;
+```</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T134450Z" creationid="kntacooh" creationdate="20141123T134450Z">
+        <seg>&lt;sharing enabled="false"/&gt;
+&lt;/folder&gt;
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;size&gt;38539&lt;/size&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T142729Z" creationid="kntacooh" creationdate="20141123T142729Z">
+        <seg>&lt;size&gt;38539&lt;/size&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;size&gt;69089&lt;/size&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T142739Z" creationid="kntacooh" creationdate="20141123T142739Z">
+        <seg>&lt;size&gt;69089&lt;/size&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;timeCreated&gt;2011-11-23T16:36:48.000-08:00&lt;timeCreated&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T134446Z" creationid="kntacooh" creationdate="20141123T134446Z">
+        <seg>&lt;timeCreated&gt;2011-11-23T16:36:48.000-08:00&lt;timeCreated&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; *The Original: [SugarSync for Developers-Folder Resource](https://www.sugarsync.com/dev/api/folder-resource.html)*</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T100057Z" creationid="kntacooh" creationdate="20141123T100057Z">
+        <seg>&gt; *The Original: [開発者のためのSugarSync - フォルダ・リソース](https://www.sugarsync.com/dev/api/folder-resource.html)*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A SugarSync identifier that uniquely identifies the folder resource.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T134357Z" creationid="kntacooh" creationdate="20141123T134357Z">
+        <seg>そのフォルダ・リソースを一意に識別するSugarSyncのID。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A dateTime value that specifies the date and time the file was last modified.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T135255Z" creationid="kntacooh" creationdate="20141123T135210Z">
+        <seg>ファイルが更新された時刻を明記する DateTime 値。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A dateTime value that specifies the date and time the folder was created.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T135338Z" creationid="kntacooh" creationdate="20141123T134428Z">
+        <seg>フォルダが作成された時刻を明記する DateTime 値。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A folder can contain files, other folders, or both.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T100526Z" creationid="kntacooh" creationdate="20141123T100520Z">
+        <seg>フォルダは、ファイル、他のフォルダ、もしくはその両方を含むことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A folder resource is a collection that represents a folder in a user's file system that has been selected for inclusion in the user's SugarSync account.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T134132Z" creationid="kntacooh" creationdate="20141123T100503Z">
+        <seg>フォルダ・リソースは、ユーザーのSugarSyncアカウント内に含めるために選ばれている、ユーザーのファイルシステム内に存在するフォルダを表すコレクションです。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A folder resource is represented in XML with the following elements:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T134155Z" creationid="kntacooh" creationdate="20141123T134155Z">
+        <seg>フォルダ・リソースは、以下の要素を持つXMLで表されます:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A link to the collections (folders) contained by the folder.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T134600Z" creationid="kntacooh" creationdate="20141123T134600Z">
+        <seg>フォルダに含まれるコレクション(フォルダ)へのリンク。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A link to the contents of the folder.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T134905Z" creationid="kntacooh" creationdate="20141123T134623Z">
+        <seg>フォルダのコンテンツへのリンク。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A link to the data for the file.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T140516Z" creationid="kntacooh" creationdate="20141123T140516Z">
+        <seg>ファイルのデータへのリンク。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A link to the file.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T135047Z" creationid="kntacooh" creationdate="20141123T135047Z">
+        <seg>ファイルへのリンク。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A link to the files contained by the folder.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T134613Z" creationid="kntacooh" creationdate="20141123T134613Z">
+        <seg>フォルダに含まれるファイルへのリンク。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A link to the folder.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T134853Z" creationid="kntacooh" creationdate="20141123T134853Z">
+        <seg>フォルダへのリンク。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A sync folder can contain other folders that are in the user's file system.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T100555Z" creationid="kntacooh" creationdate="20141123T100555Z">
+        <seg>同期フォルダは、ユーザーのファイルシステム内に存在する他のフォルダを含むことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>All Rights Reserved.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T100121Z" creationid="kntacooh" creationdate="20141123T100121Z">
+        <seg>All Rights Reserved.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>An indicator that this is a file.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T135012Z" creationid="kntacooh" creationdate="20141123T135012Z">
+        <seg>これがファイルだという指標。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Each file contained by the folder is represented by the following elements:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T134941Z" creationid="kntacooh" creationdate="20141123T134941Z">
+        <seg>フォルダに含まれるそれぞれのファイルは以下の要素で表されます:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Each folder contained by the folder is represented by the following elements:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T134800Z" creationid="kntacooh" creationdate="20141123T134800Z">
+        <seg>フォルダに含まれるそれぞれのフォルダは以下の要素で表されます:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Here is an example of a folder contents representation:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T142715Z" creationid="kntacooh" creationdate="20141123T142715Z">
+        <seg>フォルダのコンテンツの表記例:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Here is an example of a folder resource representation:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T134721Z" creationid="kntacooh" creationdate="20141123T134721Z">
+        <seg>フォルダ・リソースの表記例:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>However, the folders in a sync folder are simply "folders", and not "sync folders" themselves.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T134108Z" creationid="kntacooh" creationdate="20141123T134108Z">
+        <seg>しかしながら、同期フォルダ内のフォルダは単純に「フォルダ」であり、「同期フォルダ」自身ではありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Indicates whether the folder is a shared folder (`enabled="true"`) or not a shared folder (`enabled="false"`).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T140401Z" creationid="kntacooh" creationdate="20141123T134655Z">
+        <seg>フォルダが共有フォルダか(`enabled="true"`)共有フォルダでないか(`enabled="false"`)を示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Notice that file and folder information in the folder contents representation is a subset of the information provided in the folder resource representation.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T141405Z" creationid="kntacooh" creationdate="20141123T141405Z">
+        <seg>フォルダのコンテンツの表記内のファイルとフォルダの情報は、フォルダ・リソースの表記内に提供された情報の一部であることに注意してください。 </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>One type of folder, called a sync folder, is a top-level folder that the user has selected for syncing by SugarSync.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T134136Z" creationid="kntacooh" creationdate="20141123T100534Z">
+        <seg>同期フォルダと呼ばれるフォルダの種類は、SugarSyncによる同期のためにユーザーに選ばれた最上位のフォルダです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See [Updating the Folder Name](method/update-folder-info.md)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T143210Z" creationid="kntacooh" creationdate="20141123T143210Z">
+        <seg>See [フォルダ名の更新](method/update-folder-info.md)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The contents of a folder resource are represented in XML.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T134751Z" creationid="kntacooh" creationdate="20141123T134751Z">
+        <seg>フォルダ・リソースのコンテンツは、XMLで表されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The folder resource supports the following methods:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T142810Z" creationid="kntacooh" creationdate="20141123T142810Z">
+        <seg>フォルダ・リソースは以下のメソッドをサポートします:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The media type of the file, such as image/jpeg.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T140237Z" creationid="kntacooh" creationdate="20141123T135325Z">
+        <seg>image/jpeg のような、ファイルのMIME。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The size in bytes of the file.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T135528Z" creationid="kntacooh" creationdate="20141123T135139Z">
+        <seg>ファイルのサイズ (単位:バイト)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The type of the collection (`type="folder"`).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T134835Z" creationid="kntacooh" creationdate="20141123T134835Z">
+        <seg>そのコレクションのタイプ(`type="folder"`)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The user-visible name of the file.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T135033Z" creationid="kntacooh" creationdate="20141123T135033Z">
+        <seg>ユーザーに見えるファイルの名前。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The user-visible name of the folder.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T134307Z" creationid="kntacooh" creationdate="20141123T134307Z">
+        <seg>ユーザーに見えるフォルダの名前。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Whether the file is on the server (`true`) or not (`false`).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T140419Z" creationid="kntacooh" creationdate="20141123T140340Z">
+        <seg>ファイルがサーバー上にあるか(`true`)ないか(`false`)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>[API Terms of Use](/source/dev/terms.md)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T100113Z" creationid="kntacooh" creationdate="20141123T100113Z">
+        <seg>[API利用規約](/source/dev/terms.md)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>```xml
+&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;
+&lt;folder&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T134442Z" creationid="kntacooh" creationdate="20141123T134442Z">
+        <seg>```xml
+&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;
+&lt;folder&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>```xml
+&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;collectionContents start="0" hasMore="false" end="4"&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T142716Z" creationid="kntacooh" creationdate="20141123T142716Z">
+        <seg>```xml
+&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;collectionContents start="0" hasMore="false" end="4"&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ref.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T134838Z" creationid="kntacooh" creationdate="20141123T134838Z">
+        <seg>ref.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>© 2012 SugarSync, Inc.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T143212Z" creationid="kntacooh" creationdate="20141123T143212Z">
+        <seg>© 2012 SugarSync, Inc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>© 2014 SugarSync, Inc.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T100120Z" creationid="kntacooh" creationdate="20141123T100120Z">
+        <seg>© 2014 SugarSync, Inc.</seg>
+      </tuv>
+    </tu>
+<!-- Alternative translations -->
+  </body>
+</tmx>
