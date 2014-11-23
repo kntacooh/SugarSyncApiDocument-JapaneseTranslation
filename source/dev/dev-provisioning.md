@@ -52,10 +52,10 @@ Content-Type: application/xml; charset=UTF-8
 
 <?xml version="1.0" encoding="UTF-8" ?>
 <user>
- <email>user_dev10@user.com</email>
- <password>dev10pwd</password>
- <accessKeyId>AKIAJTXL5NNLKNIAEORA</accessKeyId>
- <privateAccessKey>QAzJKVkzSXbIXWFwEPbzmRYmP8VmdLyNn33AvjRP</privateAccessKey>
+  <email>user_dev10@user.com</email>
+  <password>dev10pwd</password>
+  <accessKeyId>AKIAJTXL5NNLKNIAEORA</accessKeyId>
+  <privateAccessKey>QAzJKVkzSXbIXWFwEPbzmRYmP8VmdLyNn33AvjRP</privateAccessKey>
 </user>
 ```
 

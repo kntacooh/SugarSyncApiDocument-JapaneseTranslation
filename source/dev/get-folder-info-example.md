@@ -192,13 +192,13 @@ Transfer-Encoding: chunked
 
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <folder>
- <displayName>Magic Briefcase</displayName>
- <dsid>/sc/566494/2</dsid>
- <timeCreated>2011-11-15T13:41:35.000-08:00</timeCreated>
- <collections>https://api.sugarsync.com/folder/:sc:566494:2/contents?type=folder</collections>
- <files>https://api.sugarsync.com/folder/:sc:566494:2/contents?type=file</files>
- <contents>https://api.sugarsync.com/folder/:sc:566494:2/contents</contents>
- <sharing enabled="false"/>
+  <displayName>Magic Briefcase</displayName>
+  <dsid>/sc/566494/2</dsid>
+  <timeCreated>2011-11-15T13:41:35.000-08:00</timeCreated>
+  <collections>https://api.sugarsync.com/folder/:sc:566494:2/contents?type=folder</collections>
+  <files>https://api.sugarsync.com/folder/:sc:566494:2/contents?type=file</files>
+  <contents>https://api.sugarsync.com/folder/:sc:566494:2/contents</contents>
+  <sharing enabled="false"/>
 </folder>
 ```
 
@@ -237,44 +237,44 @@ Transfer-Encoding: chunked
 
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <collectionContents start="0" hasMore="false" end="7">
- <collection type="folder">
-  <displayName>Sample Documents</displayName>
-  <ref>https://api.sugarsync.com/folder/:sc:566494:190_53764886</ref>
-  <contents>https://api.sugarsync.com/folder/:sc:566494:190_53764886/contents</contents>
- </collection>
- <collection type="folder">
-  <displayName>Sample Music</displayName>
-  <ref>https://api.sugarsync.com/folder/:sc:566494:190_53765326</ref>
-  <contents>https://api.sugarsync.com/folder/:sc:566494:190_53765326/contents</contents>
- </collection>
- <collection type="folder">
-  <displayName>Sample Photos</displayName>
-  <ref>https://api.sugarsync.com/folder/:sc:566494:190_53765358</ref>
-  <contents>https://api.sugarsync.com/folder/:sc:566494:190_53765358/contents</contents>
- </collection>
- <collection type="folder">
-  <displayName>Work Items</displayName>
-  <ref>https://api.sugarsync.com/folder/:sc:566494:6552993_104375</ref>
-  <contents>https://api.sugarsync.com/folder/:sc:566494:6552993_104375/contents</contents>
- </collection>
- <file>
-  <displayName>What is Magic Briefcase.pdf</displayName>
-  <ref>https://api.sugarsync.com/file/:sc:566494:6552993_17237</ref>
-  <size>94055</size>
-  <lastModified>2011-11-23T16:35:34.000-08:00</lastModified>
-  <mediaType>application/octet-stream</mediaType>
-  <presentOnServer>true</presentOnServer>
-  <fileData>https://api.sugarsync.com/file/:sc:566494:6552993_17237/data</fileData>
- </file>
- <file>
-  <displayName>George_Washington.jpg</displayName>
-  <ref>https://api.sugarsync.com/file/:sc:566494:6552993_814093</ref>
-  <size>10165</size>
-  <lastModified>2011-12-12T10:31:22.000-08:00</lastModified>
-  <mediaType>image/jpeg</mediaType>
-  <presentOnServer>true</presentOnServer>
-  <fileData>https://api.sugarsync.com/file/:sc:566494:6552993_814093/data</fileData>
- </file>
+  <collection type="folder">
+    <displayName>Sample Documents</displayName>
+    <ref>https://api.sugarsync.com/folder/:sc:566494:190_53764886</ref>
+    <contents>https://api.sugarsync.com/folder/:sc:566494:190_53764886/contents</contents>
+  </collection>
+  <collection type="folder">
+    <displayName>Sample Music</displayName>
+    <ref>https://api.sugarsync.com/folder/:sc:566494:190_53765326</ref>
+    <contents>https://api.sugarsync.com/folder/:sc:566494:190_53765326/contents</contents>
+  </collection>
+  <collection type="folder">
+    <displayName>Sample Photos</displayName>
+    <ref>https://api.sugarsync.com/folder/:sc:566494:190_53765358</ref>
+    <contents>https://api.sugarsync.com/folder/:sc:566494:190_53765358/contents</contents>
+  </collection>
+  <collection type="folder">
+    <displayName>Work Items</displayName>
+    <ref>https://api.sugarsync.com/folder/:sc:566494:6552993_104375</ref>
+    <contents>https://api.sugarsync.com/folder/:sc:566494:6552993_104375/contents</contents>
+  </collection>
+  <file>
+    <displayName>What is Magic Briefcase.pdf</displayName>
+    <ref>https://api.sugarsync.com/file/:sc:566494:6552993_17237</ref>
+    <size>94055</size>
+    <lastModified>2011-11-23T16:35:34.000-08:00</lastModified>
+    <mediaType>application/octet-stream</mediaType>
+    <presentOnServer>true</presentOnServer>
+    <fileData>https://api.sugarsync.com/file/:sc:566494:6552993_17237/data</fileData>
+  </file>
+  <file>
+    <displayName>George_Washington.jpg</displayName>
+    <ref>https://api.sugarsync.com/file/:sc:566494:6552993_814093</ref>
+    <size>10165</size>
+    <lastModified>2011-12-12T10:31:22.000-08:00</lastModified>
+    <mediaType>image/jpeg</mediaType>
+    <presentOnServer>true</presentOnServer>
+    <fileData>https://api.sugarsync.com/file/:sc:566494:6552993_814093/data</fileData>
+  </file>
 </collectionContents>
 ```
 

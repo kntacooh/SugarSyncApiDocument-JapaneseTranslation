@@ -101,23 +101,23 @@ Transfer-Encoding: chunked
 
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <user>
- <username>jsmith@sugarsync.com</username>
- <nickname>jsmith</nickname>
- <quota>
-  <limit>5771362304</limit>
-  <usage>2550443805</usage>
- </quota>
- <workspaces>https://api.sugarsync.com/user/5664947/workspaces/contents</workspaces>
- <syncfolders>https://api.sugarsync.com/user/5664947/folders/contents</syncfolders>
- <deleted>https://api.sugarsync.com/folder/:sc:5664947:9</deleted>
- <magicBriefcase>https://api.sugarsync.com/folder/:sc:5664947:2</magicBriefcase>
- <webArchive>https://api.sugarsync.com/folder/:sc:5664947:1</webArchive>
- <mobilePhotos>https://api.sugarsync.com/folder/:sc:5664947:3</mobilePhotos>
- <albums>https://api.sugarsync.com/user/5664947/albums/contents</albums>
- <recentActivities>https://api.sugarsync.com/user/5664947/recentActivities/contents</recentActivities>
- <receivedShares>https://api.sugarsync.com/user/5664947/receivedShares/contents</receivedShares>
- <publicLinks>https://api.sugarsync.com/user/5664947/publicLinks/contents</publicLinks>
- <maximumPublicLinkSize>25</maximumPublicLinkSize>
+  <username>jsmith@sugarsync.com</username>
+  <nickname>jsmith</nickname>
+  <quota>
+    <limit>5771362304</limit>
+    <usage>2550443805</usage>
+  </quota>
+  <workspaces>https://api.sugarsync.com/user/5664947/workspaces/contents</workspaces>
+  <syncfolders>https://api.sugarsync.com/user/5664947/folders/contents</syncfolders>
+  <deleted>https://api.sugarsync.com/folder/:sc:5664947:9</deleted>
+  <magicBriefcase>https://api.sugarsync.com/folder/:sc:5664947:2</magicBriefcase>
+  <webArchive>https://api.sugarsync.com/folder/:sc:5664947:1</webArchive>
+  <mobilePhotos>https://api.sugarsync.com/folder/:sc:5664947:3</mobilePhotos>
+  <albums>https://api.sugarsync.com/user/5664947/albums/contents</albums>
+  <recentActivities>https://api.sugarsync.com/user/5664947/recentActivities/contents</recentActivities>
+  <receivedShares>https://api.sugarsync.com/user/5664947/receivedShares/contents</receivedShares>
+  <publicLinks>https://api.sugarsync.com/user/5664947/publicLinks/contents</publicLinks>
+  <maximumPublicLinkSize>25</maximumPublicLinkSize>
 </user>
 ```
 
@@ -142,8 +142,8 @@ Content-Type: application/xml; charset=UTF-8
 
 <?xml version="1.0" encoding="UTF-8" ?>
 <file>
- <displayName>Winter2012.jpg</displayName>
- <mediaType>image/jpeg</mediaType>
+  <displayName>Winter2012.jpg</displayName>
+  <mediaType>image/jpeg</mediaType>
 </file>
 ```
 
@@ -160,23 +160,23 @@ Transfer-Encoding: chunked
 
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <user>
- <username>jsmith@sugarsync.com</username>
- <nickname>jsmith</nickname>
- <quota>
-  <limit>5771362304</limit>
-  <usage>2550443805</usage>
- </quota>
- <workspaces>https://api.sugarsync.com/user/5664947/workspaces/contents</workspaces>
- <syncfolders>https://api.sugarsync.com/user/5664947/folders/contents</syncfolders>
- <deleted>https://api.sugarsync.com/folder/:sc:5664947:9</deleted>
- <magicBriefcase>https://api.sugarsync.com/folder/:sc:5664947:2</magicBriefcase>
- <webArchive>https://api.sugarsync.com/folder/:sc:5664947:1</webArchive>
- <mobilePhotos>https://api.sugarsync.com/folder/:sc:5664947:3</mobilePhotos>
- <albums>https://api.sugarsync.com/user/5664947/albums/contents</albums>
- <recentActivities>https://api.sugarsync.com/user/5664947/recentActivities/contents</recentActivities>
- <receivedShares>https://api.sugarsync.com/user/5664947/receivedShares/contents</receivedShares>
- <publicLinks>https://api.sugarsync.com/user/5664947/publicLinks/contents</publicLinks>
- <maximumPublicLinkSize>25</maximumPublicLinkSize>
+  <username>jsmith@sugarsync.com</username>
+  <nickname>jsmith</nickname>
+  <quota>
+    <limit>5771362304</limit>
+    <usage>2550443805</usage>
+  </quota>
+  <workspaces>https://api.sugarsync.com/user/5664947/workspaces/contents</workspaces>
+  <syncfolders>https://api.sugarsync.com/user/5664947/folders/contents</syncfolders>
+  <deleted>https://api.sugarsync.com/folder/:sc:5664947:9</deleted>
+  <magicBriefcase>https://api.sugarsync.com/folder/:sc:5664947:2</magicBriefcase>
+  <webArchive>https://api.sugarsync.com/folder/:sc:5664947:1</webArchive>
+  <mobilePhotos>https://api.sugarsync.com/folder/:sc:5664947:3</mobilePhotos>
+  <albums>https://api.sugarsync.com/user/5664947/albums/contents</albums>
+  <recentActivities>https://api.sugarsync.com/user/5664947/recentActivities/contents</recentActivities>
+  <receivedShares>https://api.sugarsync.com/user/5664947/receivedShares/contents</receivedShares>
+  <publicLinks>https://api.sugarsync.com/user/5664947/publicLinks/contents</publicLinks>
+  <maximumPublicLinkSize>25</maximumPublicLinkSize>
 </user>
 ```
 

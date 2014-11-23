@@ -241,11 +241,10 @@ If the data upload completes successfully, the XML response body will include a 
 
 ```xml
 <fileVersion>
- <size>150216</size>
- ...
-
- <presentOnServer>true</presentOnServer>
- ...
+  <size>150216</size>
+  ...
+  <presentOnServer>true</presentOnServer>
+  ...
 </fileVersion>
 ```
 
@@ -257,11 +256,11 @@ If the data upload does not complete successfully, the XML response body will in
 
 ```xml
 <fileVersion>
- <storedSize>140191</storedSize>
- ...
+  <storedSize>140191</storedSize>
+  ...
 
- <presentOnServer>false</presentOnServer>
- ...
+  <presentOnServer>false</presentOnServer>
+  ...
 </fileVersion>
 ```
 

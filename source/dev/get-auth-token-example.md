@@ -47,11 +47,11 @@ Content-Type: application/xml; charset=UTF-8
 
 <?xml version="1.0" encoding="UTF-8" ?>
 <appAuthorization>
-<username>jsmith127@sugarsync.com</username>
-<password>sugar20P$</password>
-<application>/sc/10061/3_21053</application>
-<accessKeyId>AKIAJTXL5NNLKNIAEORA</accessKeyId>
-<privateAccessKey>QAzJKVkzSXbIXWFwEPbzmRYmP8VmdLyNn33AvjRP</privateAccessKey>
+  <username>jsmith127@sugarsync.com</username>
+  <password>sugar20P$</password>
+  <application>/sc/10061/3_21053</application>
+  <accessKeyId>AKIAJTXL5NNLKNIAEORA</accessKeyId>
+  <privateAccessKey>QAzJKVkzSXbIXWFwEPbzmRYmP8VmdLyNn33AvjRP</privateAccessKey>
 </appAuthorization>
 ```
 
@@ -208,9 +208,9 @@ Content-Type: application/xml; charset=UTF-8
 
 <?xml version="1.0" encoding="UTF-8" ?>
 <tokenAuthRequest>
- <accessKeyId>AKIAJTXL5NNLKNIAEORA</accessKeyId>
- <privateAccessKey>QAzJKVkzSXbIXWFwEPbzmRYmP8VmdLyNn33AvjRP</privateAccessKey>
- <refreshToken>https://api.sugarsync.com/app-authorization/A31303036322f335f3237303337</refreshToken>
+  <accessKeyId>AKIAJTXL5NNLKNIAEORA</accessKeyId>
+  <privateAccessKey>QAzJKVkzSXbIXWFwEPbzmRYmP8VmdLyNn33AvjRP</privateAccessKey>
+  <refreshToken>https://api.sugarsync.com/app-authorization/A31303036322f335f3237303337</refreshToken>
 </tokenAuthRequest>
 ```
 
@@ -329,8 +329,8 @@ Transfer-Encoding: chunked
 
 <?xml version="1.0" encoding="utf-8"?>
 <authorization>
- <expiration>2012-03-28T23:30:44.463+03:00</expiration>
- <user>https://api.sugarsync.com/user/5664947</user>
+  <expiration>2012-03-28T23:30:44.463+03:00</expiration>
+  <user>https://api.sugarsync.com/user/5664947</user>
 </authorization>
 ```
 
