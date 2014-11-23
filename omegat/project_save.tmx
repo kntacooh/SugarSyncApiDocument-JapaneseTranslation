@@ -34,6 +34,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>* [Developer Home](/source/dev/home.md)
+* [Getting Started](/source/dev/getting-started.md)
+* [Managing Keys and Apps](/source/dev/managing-apps.md)
+* [Resource Overview](/source/dev/resources.md)
+* [Examples](/source/dev/using-api.md)
+* [Best Practices](/source/dev/best-practices.md)
+* [Resource Reference](/source/dev/api/resource-ref.md)
+* [*:::Developer's Forum:::*](http://groups.google.com/a/developers.sugarsync.com/group/platform-api/subscribe)
+* [*:::App Showcase:::*](https://www.sugarsync.com/partners/)
+* [Glossary](/source/dev/glossary.md)
+* [Developer Provisioning](/source/dev/dev-provisioning.md)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="kntacooh" changedate="20141123T095558Z" creationid="kntacooh" creationdate="20141123T095558Z">
+        <seg>* [ホーム](/target/dev/home.md)
+* [はじめに](/target/dev/getting-started.md)
+* [アプリの管理](/target/dev/managing-apps.md)
+* [リソースの概要](/target/dev/resources.md)
+* [使用例](/target/dev/using-api.md)
+* [ベストプラクティス](/target/dev/best-practices.md)
+* [リソースのプラクティス](/target/dev/api/resource-ref.md)
+* [*:::開発者フォーラム:::*](http://groups.google.com/a/developers.sugarsync.com/group/platform-api/subscribe)
+* [*:::アプリ紹介:::*](https://www.sugarsync.com/partners/)
+* [用語解説](/target/dev/glossary.md)
+* [プロビジョニング](/target/dev/dev-provisioning.md)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>---</seg>
       </tuv>
       <tuv lang="JA" changeid="kntacooh" changedate="20141121T155843Z" creationid="kntacooh" creationdate="20141121T155843Z">
