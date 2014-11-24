@@ -127,7 +127,7 @@ The folder resource supports the following methods:
   * [Creating a Folder](method/create-folder.md)
   * [Creating a File in a Folder](method/create-file.md)
   * [Copying a File in a Folder](method/copy-file.md)
-* DELETE. [See Deleting a Folder](method/delete-folder.md)
+* DELETE. See [Deleting a Folder](method/delete-folder.md)
 * PUT. See [Updating the Folder Name](method/update-folder-info.md)
 
 ---
